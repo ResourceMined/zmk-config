@@ -20,7 +20,7 @@
             bindings = <&kp F14>;
         };
     };
-{
+
     keymap {
         compatible = "zmk,keymap";
 
