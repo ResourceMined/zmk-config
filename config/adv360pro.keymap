@@ -6,14 +6,14 @@
 
 / {
     behaviors {
-        excel_copy: exc {
+        exc: excel_copy {
             compatible = "zmk,behavior-macro";
             label = "EXCEL_COPY";
             #binding-cells = <0>;
             bindings = <&kp F13>;
         };
         
-        excel_paste: excp {
+       excp: excel_paste {
             compatible = "zmk,behavior-macro";
             label = "EXCEL_PASTE";
             #binding-cells = <0>;
